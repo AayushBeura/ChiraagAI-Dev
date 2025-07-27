@@ -20,7 +20,7 @@ A modern, intelligent AI desktop assistant built with Python and Tkinter, featur
 
 ## 📸 Demo
 
-> Coming soon in the GitHub Releases page.
+[![ChiraagAI Demo](https://img.youtube.com/vi/RmNGs3ges8o/0.jpg)](https://www.youtube.com/watch?v=RmNGs3ges8o)
 
 ---
 

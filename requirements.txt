@@ -1,0 +1,10 @@
+opencv-python
+Pillow
+requests
+SpeechRecognition
+pygame
+google-generativeai
+pyautogui
+python-dotenv>=1.0.0
+pyinstaller
+pyaudio

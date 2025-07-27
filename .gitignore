@@ -1,0 +1,18 @@
+﻿# Environment variables
+.env
+*.env
+user_config.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# PyInstaller build files
+build/
+dist/
+*.exe
+*.pkg
+
+# IDE files
+.vscode/
+.DS_Store

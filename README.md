@@ -114,24 +114,13 @@ python main.py
 ---
 
 ## ⚙️ Configuration
-
-Edit `config_manager.py` to provide your:
+> Run the provided `.exe` file or build the file, and open the executable. When it prompts for the API Keys, configure them and the keys get saved onto a local cache JSON File.
 
 - 🌐 Gemini API key
 - 🔊 Murf TTS API key
 - 🛠 Additional settings (voice, model parameters, etc.)
 
 > You may optionally use `.env` files for keeping keys secure.
-
----
-
-## 🧠 Future Enhancements
-
-- ☁️ Cloud sync for user preferences  
-- 🧩 Plugin-based command modules  
-- 🎮 Game Mode assistant integration  
-- 🌍 Multilingual support  
-- 🎤 Natural language pipelines (OpenVoice, Whisper)
 
 ---
 

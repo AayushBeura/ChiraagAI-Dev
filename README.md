@@ -2,7 +2,7 @@
 
 A modern, intelligent AI desktop assistant built with Python and Tkinter, featuring a sleek GUI, multimedia startup, voice interaction, and real-time automation. Designed to feel futuristic yet functional — your personal productivity booster.
 
-![ChiraagAI Banner](logo.png)
+![ChiraagAI Banner](banner.png)
 
 ---
 
@@ -28,7 +28,7 @@ A modern, intelligent AI desktop assistant built with Python and Tkinter, featur
 
 ```
 ChiraagAI-Dev/
-├── ChiraagAI.py             # Main application
+├── main.py             # Main application
 ├── config_manager.py        # Handles API key & config management
 ├── startup.mp4              # Startup intro video
 ├── startup.mp3              # Startup audio
@@ -65,14 +65,7 @@ You can build a standalone `.exe` using PyInstaller:
 ### 🔹 Windows:
 
 ```bash
-pyinstaller --onefile --windowed --icon=ChiraagAI-Icon.ico ^
---add-data "startup.mp3;." ^
---add-data "startup.mp4;." ^
---add-data "logo.png;." ^
---add-data "ChiraagAI-Icon.png;." ^
---add-data "ChiraagAI-Icon.ico;." ^
---add-data "config_manager.py;." ^
---name ChiraagAI ChiraagAI.py
+pyinstaller --onefile --windowed --icon=ChiraagAI-Icon.ico --add-data "ChiraagAI-Icon.ico;." --add-data "ChiraagAI-Icon.png;." --add-data "logo.png;." --add-data "startup.mp4;." --add-data "startup.mp3;." --add-data "config_manager.py;." --name ChiraagAI ChiraagAI.py
 ```
 
 ### 🔸 macOS/Linux:
@@ -109,11 +102,11 @@ Head over to the [**Releases Page**](https://github.com/AayushBeura/ChiraagAI-De
 python -m venv .venv
 .venv\Scripts\activate     # (on Windows)
 
-# Install dependencies
+# Install dependencies [should already be installed]
 pip install -r requirements.txt
 
 # Run
-python ChiraagAI.py
+python main.py
 ```
 
 ---

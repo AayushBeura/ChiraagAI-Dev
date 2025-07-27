@@ -52,8 +52,10 @@ ChiraagAI-Dev/
 ```bash
 git clone https://github.com/AayushBeura/ChiraagAI-Dev.git
 cd ChiraagAI-Dev
+python -m venv .venv
+.\.venv\Scripts\Activate
 pip install -r requirements.txt
-python ChiraagAI.py
+python main.py
 ```
 
 ---
@@ -65,7 +67,7 @@ You can build a standalone `.exe` using PyInstaller:
 ### 🔹 Windows:
 
 ```bash
-pyinstaller --onefile --windowed --icon=ChiraagAI-Icon.ico --add-data "ChiraagAI-Icon.ico;." --add-data "ChiraagAI-Icon.png;." --add-data "logo.png;." --add-data "startup.mp4;." --add-data "startup.mp3;." --add-data "config_manager.py;." --name ChiraagAI ChiraagAI.py
+pyinstaller --onefile --windowed --icon=ChiraagAI-Icon.ico --add-data "ChiraagAI-Icon.ico;." --add-data "ChiraagAI-Icon.png;." --add-data "logo.png;." --add-data "startup.mp4;." --add-data "startup.mp3;." --add-data "config_manager.py;." --name ChiraagAI main.py
 ```
 
 ### 🔸 macOS/Linux:
@@ -100,7 +102,7 @@ Head over to the [**Releases Page**](https://github.com/AayushBeura/ChiraagAI-De
 ```bash
 # Create a virtual environment
 python -m venv .venv
-.venv\Scripts\activate     # (on Windows)
+.\.venv\Scripts\Activate
 
 # Install dependencies [should already be installed]
 pip install -r requirements.txt
